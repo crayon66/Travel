@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#3b3b3b" >
+ 
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Update Password"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+       
+     
+        <!--  Old password -->
+
+        <EditText
+            android:id="@+id/updateOldPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Old Password" 
+            android:password="true" 
+            android:inputType="textPassword"/>
+      
+        <EditText
+            android:id="@+id/updateNewPassword"
+            android:layout_width="fill_parent"
+             android:hint="New Password"
+            android:layout_height="wrap_content" 
+            android:password="true" 
+            android:inputType="textPassword"/>
+ 
+       
+      
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/updateNewPassword2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="repeat New Password"
+            android:password="true" 
+            android:inputType="textPassword"/>
+ 
+        
+ 
+        <!--  Update Button -->
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Update" />
+ 	
+        <Button
+            android:id="@+id/updatetoLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:text="Back to login" />
+        <!--  Link to Login Screen -->
+        
+    </LinearLayout>
+ 
+</ScrollView>
